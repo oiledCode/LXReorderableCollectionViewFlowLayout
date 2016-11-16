@@ -348,7 +348,7 @@ static NSString * const kLXCollectionViewKeyPath = @"collectionView";
                  __strong typeof(self) strongSelf = weakSelf;
                  if (strongSelf) {
                      strongSelf.currentView.transform = CGAffineTransformMakeScale(0.95f, 0.95f);
-                     strongSelf.currentView.alpha = 0.9
+                     strongSelf.currentView.alpha = 0.9;
                      highlightedImageView.alpha = 0.0f;
                      imageView.alpha = 1.0f;
                  }
@@ -387,7 +387,7 @@ static NSString * const kLXCollectionViewKeyPath = @"collectionView";
                      __strong typeof(self) strongSelf = weakSelf;
                      if (strongSelf) {
                          strongSelf.currentView.transform = CGAffineTransformMakeScale(1.0f, 1.0f);
-                         strongSelf.currentView.alpha = 1.0
+                         strongSelf.currentView.alpha = 1.0;
                          strongSelf.currentView.center = layoutAttributes.center;
                      }
                  }
